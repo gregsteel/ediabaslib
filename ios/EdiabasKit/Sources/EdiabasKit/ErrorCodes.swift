@@ -1,0 +1,805 @@
+// Generated from EdiabasNet.cs ErrorCodes enum. Do not edit by hand.
+
+public enum EdiabasError: UInt32, Error, Sendable {
+    case EDIABAS_ERR_NONE = 0
+    case EDIABAS_IFH_0000 = 10
+    case EDIABAS_IFH_0001 = 11
+    case EDIABAS_IFH_0002 = 12
+    case EDIABAS_IFH_0003 = 13
+    case EDIABAS_IFH_0004 = 14
+    case EDIABAS_IFH_0005 = 15
+    case EDIABAS_IFH_0006 = 16
+    case EDIABAS_IFH_0007 = 17
+    case EDIABAS_IFH_0008 = 18
+    case EDIABAS_IFH_0009 = 19
+    case EDIABAS_IFH_0010 = 20
+    case EDIABAS_IFH_0011 = 21
+    case EDIABAS_IFH_0012 = 22
+    case EDIABAS_IFH_0013 = 23
+    case EDIABAS_IFH_0014 = 24
+    case EDIABAS_IFH_0015 = 25
+    case EDIABAS_IFH_0016 = 26
+    case EDIABAS_IFH_0017 = 27
+    case EDIABAS_IFH_0018 = 28
+    case EDIABAS_IFH_0019 = 29
+    case EDIABAS_IFH_0020 = 30
+    case EDIABAS_IFH_0021 = 31
+    case EDIABAS_IFH_0022 = 32
+    case EDIABAS_IFH_0023 = 33
+    case EDIABAS_IFH_0024 = 34
+    case EDIABAS_IFH_0025 = 35
+    case EDIABAS_IFH_0026 = 36
+    case EDIABAS_IFH_0027 = 37
+    case EDIABAS_IFH_0028 = 38
+    case EDIABAS_IFH_0029 = 39
+    case EDIABAS_IFH_0030 = 40
+    case EDIABAS_IFH_0031 = 41
+    case EDIABAS_IFH_0032 = 42
+    case EDIABAS_IFH_0033 = 43
+    case EDIABAS_IFH_0034 = 44
+    case EDIABAS_IFH_0035 = 45
+    case EDIABAS_IFH_0036 = 46
+    case EDIABAS_IFH_0037 = 47
+    case EDIABAS_IFH_0038 = 48
+    case EDIABAS_IFH_0039 = 49
+    case EDIABAS_IFH_0040 = 50
+    case EDIABAS_IFH_0041 = 51
+    case EDIABAS_IFH_0042 = 52
+    case EDIABAS_IFH_0043 = 53
+    case EDIABAS_IFH_0044 = 54
+    case EDIABAS_IFH_0045 = 55
+    case EDIABAS_IFH_0046 = 56
+    case EDIABAS_IFH_0047 = 57
+    case EDIABAS_IFH_0048 = 58
+    case EDIABAS_IFH_0049 = 59
+    case EDIABAS_BIP_0000 = 60
+    case EDIABAS_BIP_0001 = 61
+    case EDIABAS_BIP_0002 = 62
+    case EDIABAS_BIP_0003 = 63
+    case EDIABAS_BIP_0004 = 64
+    case EDIABAS_BIP_0005 = 65
+    case EDIABAS_BIP_0006 = 66
+    case EDIABAS_BIP_0007 = 67
+    case EDIABAS_BIP_0008 = 68
+    case EDIABAS_BIP_0009 = 69
+    case EDIABAS_BIP_0010 = 70
+    case EDIABAS_BIP_0011 = 71
+    case EDIABAS_BIP_0012 = 72
+    case EDIABAS_BIP_0013 = 73
+    case EDIABAS_BIP_0014 = 74
+    case EDIABAS_BIP_0015 = 75
+    case EDIABAS_BIP_0016 = 76
+    case EDIABAS_BIP_0017 = 77
+    case EDIABAS_BIP_0018 = 78
+    case EDIABAS_BIP_0019 = 79
+    case EDIABAS_BIP_0020 = 80
+    case EDIABAS_BIP_0021 = 81
+    case EDIABAS_BIP_0022 = 82
+    case EDIABAS_BIP_0023 = 83
+    case EDIABAS_BIP_0024 = 84
+    case EDIABAS_BIP_0025 = 85
+    case EDIABAS_BIP_0026 = 86
+    case EDIABAS_BIP_0027 = 87
+    case EDIABAS_BIP_0028 = 88
+    case EDIABAS_BIP_0029 = 89
+    case EDIABAS_SYS_0000 = 90
+    case EDIABAS_SYS_0001 = 91
+    case EDIABAS_SYS_0002 = 92
+    case EDIABAS_SYS_0003 = 93
+    case EDIABAS_SYS_0004 = 94
+    case EDIABAS_SYS_0005 = 95
+    case EDIABAS_SYS_0006 = 96
+    case EDIABAS_SYS_0007 = 97
+    case EDIABAS_SYS_0008 = 98
+    case EDIABAS_SYS_0009 = 99
+    case EDIABAS_SYS_0010 = 100
+    case EDIABAS_SYS_0011 = 101
+    case EDIABAS_SYS_0012 = 102
+    case EDIABAS_SYS_0013 = 103
+    case EDIABAS_SYS_0014 = 104
+    case EDIABAS_SYS_0015 = 105
+    case EDIABAS_SYS_0016 = 106
+    case EDIABAS_SYS_0017 = 107
+    case EDIABAS_SYS_0018 = 108
+    case EDIABAS_SYS_0019 = 109
+    case EDIABAS_SYS_0020 = 110
+    case EDIABAS_SYS_0021 = 111
+    case EDIABAS_SYS_0022 = 112
+    case EDIABAS_SYS_0023 = 113
+    case EDIABAS_SYS_0024 = 114
+    case EDIABAS_SYS_0025 = 115
+    case EDIABAS_SYS_0026 = 116
+    case EDIABAS_SYS_0027 = 117
+    case EDIABAS_SYS_0028 = 118
+    case EDIABAS_SYS_0029 = 119
+    case EDIABAS_API_0000 = 120
+    case EDIABAS_API_0001 = 121
+    case EDIABAS_API_0002 = 122
+    case EDIABAS_API_0003 = 123
+    case EDIABAS_API_0004 = 124
+    case EDIABAS_API_0005 = 125
+    case EDIABAS_API_0006 = 126
+    case EDIABAS_API_0007 = 127
+    case EDIABAS_API_0008 = 128
+    case EDIABAS_API_0009 = 129
+    case EDIABAS_API_0010 = 130
+    case EDIABAS_API_0011 = 131
+    case EDIABAS_API_0012 = 132
+    case EDIABAS_API_0013 = 133
+    case EDIABAS_API_0014 = 134
+    case EDIABAS_API_0015 = 135
+    case EDIABAS_API_0016 = 136
+    case EDIABAS_API_0017 = 137
+    case EDIABAS_API_0018 = 138
+    case EDIABAS_API_0019 = 139
+    case EDIABAS_API_0020 = 140
+    case EDIABAS_API_0021 = 141
+    case EDIABAS_API_0022 = 142
+    case EDIABAS_API_0023 = 143
+    case EDIABAS_API_0024 = 144
+    case EDIABAS_API_0025 = 145
+    case EDIABAS_API_0026 = 146
+    case EDIABAS_API_0027 = 147
+    case EDIABAS_API_0028 = 148
+    case EDIABAS_API_0029 = 149
+    case EDIABAS_NET_0000 = 150
+    case EDIABAS_NET_0001 = 151
+    case EDIABAS_NET_0002 = 152
+    case EDIABAS_NET_0003 = 153
+    case EDIABAS_NET_0004 = 154
+    case EDIABAS_NET_0005 = 155
+    case EDIABAS_NET_0006 = 156
+    case EDIABAS_NET_0007 = 157
+    case EDIABAS_NET_0008 = 158
+    case EDIABAS_NET_0009 = 159
+    case EDIABAS_NET_0010 = 160
+    case EDIABAS_NET_0011 = 161
+    case EDIABAS_NET_0012 = 162
+    case EDIABAS_NET_0013 = 163
+    case EDIABAS_NET_0014 = 164
+    case EDIABAS_NET_0015 = 165
+    case EDIABAS_NET_0016 = 166
+    case EDIABAS_NET_0017 = 167
+    case EDIABAS_NET_0018 = 168
+    case EDIABAS_NET_0019 = 169
+    case EDIABAS_NET_0020 = 170
+    case EDIABAS_NET_0021 = 171
+    case EDIABAS_NET_0022 = 172
+    case EDIABAS_NET_0023 = 173
+    case EDIABAS_NET_0024 = 174
+    case EDIABAS_NET_0025 = 175
+    case EDIABAS_NET_0026 = 176
+    case EDIABAS_NET_0027 = 177
+    case EDIABAS_NET_0028 = 178
+    case EDIABAS_NET_0029 = 179
+    case EDIABAS_NET_0030 = 180
+    case EDIABAS_NET_0031 = 181
+    case EDIABAS_NET_0032 = 182
+    case EDIABAS_NET_0033 = 183
+    case EDIABAS_NET_0034 = 184
+    case EDIABAS_NET_0035 = 185
+    case EDIABAS_NET_0036 = 186
+    case EDIABAS_NET_0037 = 187
+    case EDIABAS_NET_0038 = 188
+    case EDIABAS_NET_0039 = 189
+    case EDIABAS_NET_0040 = 190
+    case EDIABAS_NET_0041 = 191
+    case EDIABAS_NET_0042 = 192
+    case EDIABAS_NET_0043 = 193
+    case EDIABAS_NET_0044 = 194
+    case EDIABAS_NET_0045 = 195
+    case EDIABAS_NET_0046 = 196
+    case EDIABAS_NET_0047 = 197
+    case EDIABAS_NET_0048 = 198
+    case EDIABAS_NET_0049 = 199
+    case EDIABAS_IFH_0050 = 200
+    case EDIABAS_IFH_0051 = 201
+    case EDIABAS_IFH_0052 = 202
+    case EDIABAS_IFH_0053 = 203
+    case EDIABAS_IFH_0054 = 204
+    case EDIABAS_IFH_0055 = 205
+    case EDIABAS_IFH_0056 = 206
+    case EDIABAS_IFH_0057 = 207
+    case EDIABAS_IFH_0058 = 208
+    case EDIABAS_IFH_0059 = 209
+    case EDIABAS_IFH_0060 = 210
+    case EDIABAS_IFH_0061 = 211
+    case EDIABAS_IFH_0062 = 212
+    case EDIABAS_IFH_0063 = 213
+    case EDIABAS_IFH_0064 = 214
+    case EDIABAS_IFH_0065 = 215
+    case EDIABAS_IFH_0066 = 216
+    case EDIABAS_IFH_0067 = 217
+    case EDIABAS_IFH_0068 = 218
+    case EDIABAS_IFH_0069 = 219
+    case EDIABAS_IFH_0070 = 220
+    case EDIABAS_IFH_0071 = 221
+    case EDIABAS_IFH_0072 = 222
+    case EDIABAS_IFH_0073 = 223
+    case EDIABAS_IFH_0074 = 224
+    case EDIABAS_IFH_0075 = 225
+    case EDIABAS_IFH_0076 = 226
+    case EDIABAS_IFH_0077 = 227
+    case EDIABAS_IFH_0078 = 228
+    case EDIABAS_IFH_0079 = 229
+    case EDIABAS_IFH_0080 = 230
+    case EDIABAS_IFH_0081 = 231
+    case EDIABAS_IFH_0082 = 232
+    case EDIABAS_IFH_0083 = 233
+    case EDIABAS_IFH_0084 = 234
+    case EDIABAS_IFH_0085 = 235
+    case EDIABAS_IFH_0086 = 236
+    case EDIABAS_IFH_0087 = 237
+    case EDIABAS_IFH_0088 = 238
+    case EDIABAS_IFH_0089 = 239
+    case EDIABAS_IFH_0090 = 240
+    case EDIABAS_IFH_0091 = 241
+    case EDIABAS_IFH_0092 = 242
+    case EDIABAS_IFH_0093 = 243
+    case EDIABAS_IFH_0094 = 244
+    case EDIABAS_IFH_0095 = 245
+    case EDIABAS_IFH_0096 = 246
+    case EDIABAS_IFH_0097 = 247
+    case EDIABAS_IFH_0098 = 248
+    case EDIABAS_IFH_0099 = 249
+    case EDIABAS_RUN_0000 = 250
+    case EDIABAS_RUN_0001 = 251
+    case EDIABAS_RUN_0002 = 252
+    case EDIABAS_RUN_0003 = 253
+    case EDIABAS_RUN_0004 = 254
+    case EDIABAS_RUN_0005 = 255
+    case EDIABAS_RUN_0006 = 256
+    case EDIABAS_RUN_0007 = 257
+    case EDIABAS_RUN_0008 = 258
+    case EDIABAS_RUN_0009 = 259
+    case EDIABAS_RUN_0010 = 260
+    case EDIABAS_RUN_0011 = 261
+    case EDIABAS_RUN_0012 = 262
+    case EDIABAS_RUN_0013 = 263
+    case EDIABAS_RUN_0014 = 264
+    case EDIABAS_RUN_0015 = 265
+    case EDIABAS_RUN_0016 = 266
+    case EDIABAS_RUN_0017 = 267
+    case EDIABAS_RUN_0018 = 268
+    case EDIABAS_RUN_0019 = 269
+    case EDIABAS_RUN_0020 = 270
+    case EDIABAS_RUN_0021 = 271
+    case EDIABAS_RUN_0022 = 272
+    case EDIABAS_RUN_0023 = 273
+    case EDIABAS_RUN_0024 = 274
+    case EDIABAS_RUN_0025 = 275
+    case EDIABAS_RUN_0026 = 276
+    case EDIABAS_RUN_0027 = 277
+    case EDIABAS_RUN_0028 = 278
+    case EDIABAS_RUN_0029 = 279
+    case EDIABAS_RUN_0030 = 280
+    case EDIABAS_RUN_0031 = 281
+    case EDIABAS_RUN_0032 = 282
+    case EDIABAS_RUN_0033 = 283
+    case EDIABAS_RUN_0034 = 284
+    case EDIABAS_RUN_0035 = 285
+    case EDIABAS_RUN_0036 = 286
+    case EDIABAS_RUN_0037 = 287
+    case EDIABAS_RUN_0038 = 288
+    case EDIABAS_RUN_0039 = 289
+    case EDIABAS_RUN_0040 = 290
+    case EDIABAS_RUN_0041 = 291
+    case EDIABAS_RUN_0042 = 292
+    case EDIABAS_RUN_0043 = 293
+    case EDIABAS_RUN_0044 = 294
+    case EDIABAS_RUN_0045 = 295
+    case EDIABAS_RUN_0046 = 296
+    case EDIABAS_RUN_0047 = 297
+    case EDIABAS_RUN_0048 = 298
+    case EDIABAS_RUN_0049 = 299
+    case EDIABAS_RUN_0050 = 300
+    case EDIABAS_RUN_0051 = 301
+    case EDIABAS_RUN_0052 = 302
+    case EDIABAS_RUN_0053 = 303
+    case EDIABAS_RUN_0054 = 304
+    case EDIABAS_RUN_0055 = 305
+    case EDIABAS_RUN_0056 = 306
+    case EDIABAS_RUN_0057 = 307
+    case EDIABAS_RUN_0058 = 308
+    case EDIABAS_RUN_0059 = 309
+    case EDIABAS_RUN_0060 = 310
+    case EDIABAS_RUN_0061 = 311
+    case EDIABAS_RUN_0062 = 312
+    case EDIABAS_RUN_0063 = 313
+    case EDIABAS_RUN_0064 = 314
+    case EDIABAS_RUN_0065 = 315
+    case EDIABAS_RUN_0066 = 316
+    case EDIABAS_RUN_0067 = 317
+    case EDIABAS_RUN_0068 = 318
+    case EDIABAS_RUN_0069 = 319
+    case EDIABAS_RUN_0070 = 320
+    case EDIABAS_RUN_0071 = 321
+    case EDIABAS_RUN_0072 = 322
+    case EDIABAS_RUN_0073 = 323
+    case EDIABAS_RUN_0074 = 324
+    case EDIABAS_RUN_0075 = 325
+    case EDIABAS_RUN_0076 = 326
+    case EDIABAS_RUN_0077 = 327
+    case EDIABAS_RUN_0078 = 328
+    case EDIABAS_RUN_0079 = 329
+    case EDIABAS_RUN_0080 = 330
+    case EDIABAS_RUN_0081 = 331
+    case EDIABAS_RUN_0082 = 332
+    case EDIABAS_RUN_0083 = 333
+    case EDIABAS_RUN_0084 = 334
+    case EDIABAS_RUN_0085 = 335
+    case EDIABAS_RUN_0086 = 336
+    case EDIABAS_RUN_0087 = 337
+    case EDIABAS_RUN_0088 = 338
+    case EDIABAS_RUN_0089 = 339
+    case EDIABAS_RUN_0090 = 340
+    case EDIABAS_RUN_0091 = 341
+    case EDIABAS_RUN_0092 = 342
+    case EDIABAS_RUN_0093 = 343
+    case EDIABAS_RUN_0094 = 344
+    case EDIABAS_RUN_0095 = 345
+    case EDIABAS_RUN_0096 = 346
+    case EDIABAS_RUN_0097 = 347
+    case EDIABAS_RUN_0098 = 348
+    case EDIABAS_RUN_0099 = 349
+    case EDIABAS_SEC_0000 = 350
+    case EDIABAS_SEC_0001 = 351
+    case EDIABAS_SEC_0002 = 352
+    case EDIABAS_SEC_0003 = 353
+    case EDIABAS_SEC_0004 = 354
+    case EDIABAS_SEC_0005 = 355
+    case EDIABAS_SEC_0006 = 356
+    case EDIABAS_SEC_0007 = 357
+    case EDIABAS_SEC_0008 = 358
+    case EDIABAS_SEC_0009 = 359
+    case EDIABAS_SEC_0010 = 360
+    case EDIABAS_SEC_0011 = 361
+    case EDIABAS_SEC_0012 = 362
+    case EDIABAS_SEC_0013 = 363
+    case EDIABAS_SEC_0014 = 364
+    case EDIABAS_SEC_0015 = 365
+    case EDIABAS_SEC_0016 = 366
+    case EDIABAS_SEC_0017 = 367
+    case EDIABAS_SEC_0018 = 368
+    case EDIABAS_SEC_0019 = 369
+    case EDIABAS_SEC_0020 = 370
+    case EDIABAS_SEC_0021 = 371
+    case EDIABAS_SEC_0022 = 372
+    case EDIABAS_SEC_0023 = 373
+    case EDIABAS_SEC_0024 = 374
+    case EDIABAS_SEC_0025 = 375
+    case EDIABAS_SEC_0026 = 376
+    case EDIABAS_SEC_0027 = 377
+    case EDIABAS_SEC_0028 = 378
+    case EDIABAS_SEC_0029 = 379
+    case EDIABAS_SEC_0030 = 380
+    case EDIABAS_SEC_0031 = 381
+    case EDIABAS_SEC_0032 = 382
+    case EDIABAS_SEC_0033 = 383
+    case EDIABAS_SEC_0034 = 384
+    case EDIABAS_SEC_0035 = 385
+    case EDIABAS_SEC_0036 = 386
+    case EDIABAS_SEC_0037 = 387
+    case EDIABAS_SEC_0038 = 388
+    case EDIABAS_SEC_0039 = 389
+    case EDIABAS_SEC_0040 = 390
+    case EDIABAS_SEC_0041 = 391
+    case EDIABAS_SEC_0042 = 392
+    case EDIABAS_SEC_0043 = 393
+    case EDIABAS_SEC_0044 = 394
+    case EDIABAS_SEC_0045 = 395
+    case EDIABAS_SEC_0046 = 396
+    case EDIABAS_SEC_0047 = 397
+    case EDIABAS_SEC_0048 = 398
+    case EDIABAS_SEC_0049 = 399
+
+    public static let EDIABAS_IFH_LAST: EdiabasError = .EDIABAS_IFH_0049
+    public static let EDIABAS_BIP_LAST: EdiabasError = .EDIABAS_BIP_0029
+    public static let EDIABAS_SYS_LAST: EdiabasError = .EDIABAS_SYS_0029
+    public static let EDIABAS_API_LAST: EdiabasError = .EDIABAS_API_0029
+    public static let EDIABAS_NET_LAST: EdiabasError = .EDIABAS_NET_0049
+    public static let EDIABAS_RUN_LAST: EdiabasError = .EDIABAS_RUN_0099
+    public static let EDIABAS_SEC_LAST: EdiabasError = .EDIABAS_SEC_0049
+    public static let EDIABAS_ERROR_LAST: EdiabasError = .EDIABAS_SEC_0049
+
+    public var text: String { "\(ediabasName) (\(errorDescription))" }
+    public var ediabasName: String { String(describing: self) }
+    public var errorDescription: String {
+        guard self.rawValue >= EdiabasError.IFH_FIRST, self.rawValue <= EdiabasError.LAST_VALUE else { return "" }
+        return Self.descriptions[Int(self.rawValue - EdiabasError.IFH_FIRST)]
+    }
+    static let IFH_FIRST: UInt32 = 10
+    static let LAST_VALUE: UInt32 = 399
+    static let descriptions: [String] = [
+        "IFH-0000: INTERNAL ERROR",
+        "IFH-0001: UART ERROR",
+        "IFH-0002: NO RESPONSE FROM INTERFACE",
+        "IFH-0003: DATATRANSMISSION TO INTERFACE DISTURBED",
+        "IFH-0004: ERROR IN INTERFACE COMMAND",
+        "IFH-0005: INTERNAL INTERFACE ERROR",
+        "IFH-0006: COMMAND NOT ACCEPTED",
+        "IFH-0007: WRONG UBATT",
+        "IFH-0008: CONTROLUNIT CONNECTION ERROR",
+        "IFH-0009: NO RESPONSE FROM CONTROLUNIT",
+        "IFH-0010: DATATRANSMISSION TO CONTROLUNIT DISTURBED",
+        "IFH-0011: UNKNOWN INTERFACE",
+        "IFH-0012: BUFFER OVERFLOW",
+        "IFH-0013: COMMAND NOT IMPLEMENTED",
+        "IFH-0014: CONCEPT NOT IMPLEMENTED",
+        "IFH-0015: UBATT ON/OFF ERROR",
+        "IFH-0016: IGNITION ON/OFF ERROR",
+        "IFH-0017: INTERFACE DEADLOCK ERROR",
+        "IFH-0018: INITIALIZATION ERROR",
+        "IFH-0019: DEVICE ACCESS ERROR",
+        "IFH-0020: DRIVER ERROR",
+        "IFH-0021: ILLEGAL PORT",
+        "IFH-0022: DRIVER STATUS ERROR",
+        "IFH-0023: INTERFACE STATUS ERROR",
+        "IFH-0024: CANCEL FAILED",
+        "IFH-0025: INTERFACE APPLICATION ERROR",
+        "IFH-0026: SIMULATION ERROR",
+        "IFH-0027: IFH NOT FOUND",
+        "IFH-0028: ILLEGAL IFH VERSION",
+        "IFH-0029: ACCESS DENIED",
+        "IFH-0030: TASK COMMUNICATION ERROR",
+        "IFH-0031: DATA OVERFLOW",
+        "IFH-0032: IGNITION IS OFF",
+        "IFH-0033",
+        "IFH-0034: CONFIGURATION FILE NOT FOUND",
+        "IFH-0035: CONFIGURATION ERROR",
+        "IFH-0036: LOAD ERROR",
+        "IFH-0037: LOW UBATT",
+        "IFH-0038: INTERFACE COMMAND NOT IMPLEMENTED",
+        "IFH-0039: EDIC USER INTERFACE NOT FOUND",
+        "IFH-0040: ILLEGAL EDIC USER INTERFACE VERSION",
+        "IFH-0041: ILLEGAL PARAMETERS",
+        "IFH-0042: CARD INSTALLATION ERROR",
+        "IFH-0043: COMMUNICATION TRACE ERROR",
+        "IFH-0044: FLASH ERROR",
+        "IFH-0045: RUNBOARD ERROR",
+        "IFH-0046: EDIC API ACCESS ERROR",
+        "IFH-0047: PLUGIN ERROR",
+        "IFH-0048: PLUGIN FUNCTION ERROR",
+        "IFH-0049: CSS DEVICE DETECTION ERROR",
+        "BIP-0000: INTERNAL ERROR",
+        "BIP-0001: OUT OF RANGE",
+        "BIP-0002: IFH FUNCTION ERROR",
+        "BIP-0003: OBJECT FILE ERROR",
+        "BIP-0004: ILLEGAL OPCODE",
+        "BIP-0005: STACK OVERFLOW",
+        "BIP-0006: BEST FILE ERROR",
+        "BIP-0007: DIVISION BY ZERO",
+        "BIP-0008: BEST BREAK",
+        "BIP-0009: BEST VERSION ERROR",
+        "BIP-0010: CONSTANT DATA ACCESS ERROR",
+        "BIP-0011: REAL ERROR",
+        "BIP-0012: PLUG IN NOT FOUND",
+        "BIP-0013: PLUG IN ERROR",
+        "BIP-0014: PLUG IN VERSION ERROR",
+        "BIP-0015: PLUG IN STACK ERROR",
+        "BIP-0016: PLUG IN FUNCTION NOT FOUND",
+        "BIP-0017: IFH CHANNEL ERROR",
+        "BIP-0018: SYSTEM ERROR",
+        "BIP-0019",
+        "BIP-0020",
+        "BIP-0021",
+        "BIP-0022",
+        "BIP-0023",
+        "BIP-0024",
+        "BIP-0025",
+        "BIP-0026",
+        "BIP-0027",
+        "BIP-0028",
+        "BIP-0029",
+        "SYS-0000: INTERNAL ERROR",
+        "SYS-0001: ILLEGAL FUNCTION",
+        "SYS-0002: ECU OBJECT FILE NOT FOUND",
+        "SYS-0003: ECU OBJECT FILE ERROR",
+        "SYS-0004: ILLEGAL FORMAT OF ECU OBJECTFILE",
+        "SYS-0005: OBJECT FILE NOT FOUND",
+        "SYS-0006: GROUP OBJECT FILE ERROR",
+        "SYS-0007: ILLEGAL FORMAT OF GROUP OBJECT FILE",
+        "SYS-0008: JOB NOT FOUND",
+        "SYS-0009: NO INITIALIZATION JOB",
+        "SYS-0010: INITIALIZATION ERROR",
+        "SYS-0011: NO IDENTIFICATIONJOB",
+        "SYS-0012: IDENTIFICATION ERROR",
+        "SYS-0013: UNEXPECTED RESULT",
+        "SYS-0014: ILLEGAL FORMAT",
+        "SYS-0015: TASK COMMUNICATION ERROR",
+        "SYS-0016: ILLEGAL CONFIGURATION",
+        "SYS-0017",
+        "SYS-0018: END JOB ERROR",
+        "SYS-0019: TIMER ERROR",
+        "SYS-0020: BASE OBJECT FILE NOT FOUND",
+        "SYS-0021: BASE OBJECT FILE ERROR",
+        "SYS-0022: ILLEGAL FORMAT OF BASE OBJECT FILE",
+        "SYS-0023: PASSWORD ERROR",
+        "SYS-0024: ILLEGAL PASSWORD",
+        "SYS-0025",
+        "SYS-0026",
+        "SYS-0027",
+        "SYS-0028",
+        "SYS-0029",
+        "API-0000: INTERNAL ERROR",
+        "API-0001: USER BREAK",
+        "API-0002: MEMORY ALLOCATION ERROR",
+        "API-0003: RESULT SETS OVERFLOW",
+        "API-0004: RESULTS OVERFLOW",
+        "API-0005: ILLEGAL RESULT FORMAT",
+        "API-0006: ACCESS DENIED",
+        "API-0007: INCORRECT CONFIGURATION FILE",
+        "API-0008: TASK COMMUNICATION ERROR",
+        "API-0009: EDIABAS NOT FOUND",
+        "API-0010: ILLEGAL EDIABAS VERSION",
+        "API-0011: ILLEGAL ECU PATH",
+        "API-0012: SIGNAL SERVER NOT FOUND",
+        "API-0013: INITIALIZATION ERROR",
+        "API-0014: RESULT NOT FOUND",
+        "API-0015: HOST COMMUNICATION ERROR",
+        "API-0016: RESULT OVERFLOW",
+        "API-0017: ARGUMENT OVERFLOW",
+        "API-0018",
+        "API-0019",
+        "API-0020",
+        "API-0021",
+        "API-0022",
+        "API-0023",
+        "API-0024",
+        "API-0025",
+        "API-0026",
+        "API-0027",
+        "API-0028",
+        "API-0029",
+        "NET-0000: INTERNAL ERROR",
+        "NET-0001: UNKNOWN ERROR",
+        "NET-0002: ILLEGAL VERSION",
+        "NET-0003: INITIALIZATION ERROR",
+        "NET-0004: ILLEGAL CALL",
+        "NET-0005: NO SUPPORT",
+        "NET-0006: ACCESS DENIED",
+        "NET-0007: SYSTEM ERROR",
+        "NET-0008: NETWORK ERROR",
+        "NET-0009: TIMEOUT",
+        "NET-0010: BUFFER OVERFLOW",
+        "NET-0011: ALREADY CONNECTED",
+        "NET-0012: NO CONNECTION",
+        "NET-0013: CONNECTION DISTURBED",
+        "NET-0014: CONNECTION ABORTED",
+        "NET-0015: HOST NOT FOUND",
+        "NET-0016: HOST ERROR",
+        "NET-0017: PROTOCOL NOT AVAILABLE",
+        "NET-0018: UNKNOWN PROTOCOL",
+        "NET-0019: UNKNOWN SERVICE",
+        "NET-0020: UNKNOWN HOST",
+        "NET-0021: SERVER NOT FOUND",
+        "NET-0022: SECURITY ERROR",
+        "NET-0023",
+        "NET-0024",
+        "NET-0025",
+        "NET-0026",
+        "NET-0027",
+        "NET-0028",
+        "NET-0029",
+        "NET-0030",
+        "NET-0031",
+        "NET-0032",
+        "NET-0033",
+        "NET-0034",
+        "NET-0035",
+        "NET-0036",
+        "NET-0037",
+        "NET-0038",
+        "NET-0039",
+        "NET-0040",
+        "NET-0041",
+        "NET-0042",
+        "NET-0043",
+        "NET-0044",
+        "NET-0045",
+        "NET-0046",
+        "NET-0047",
+        "NET-0048",
+        "NET-0049",
+        "IFH-0050: ENTRY IN DYNAMIC CONFIGURATION NOT FOUND",
+        "IFH-0051: INTERNAL DYNAMIC PROTOCOL ERROR",
+        "IFH-0052: CONCEPT NOT AVALIABLE",
+        "IFH-0053: ILLEGAL CONCEPT ID",
+        "IFH-0054: ILLEGAL FUNCTION PARAMETER",
+        "IFH-0055: CANNOT LOAD PROTOCOL TABLES",
+        "IFH-0056: ILLEGAL CHANNEL",
+        "IFH-0057: ERROR READ DIGITAL INPUTS",
+        "IFH-0058: ERROR SET DIGITAL OUTPUTS",
+        "IFH-0059: ERROR READ ANALOG INPUTS",
+        "IFH-0060: RESUME AFTER SUSPEND STATE",
+        "IFH-0061: INVALID ECU PARAMETERS FORMAT",
+        "IFH-0062: BAD ECU PARAMETERS BUFFER",
+        "IFH-0063: INVALID BUS CONFIGURATION",
+        "IFH-0064: INVALID CONNECTION SETTINGS",
+        "IFH-0065: FIRMWARE UPDATE ERROR",
+        "IFH-0066: CHANNEL ERROR",
+        "IFH-0067: ECU RESPONSE PENDING",
+        "IFH-0068: TESTER ADDRESS ERROR",
+        "IFH-0069: GATEWAY ERROR",
+        "IFH-0070: SYSTEM ERROR",
+        "IFH-0071: TELEGRAM FORMAT ERROR",
+        "IFH-0072: ECU ACCESS COLLISION",
+        "IFH-0073: PROXY ERROR",
+        "IFH-0074: UDS COMMUNICATION ERROR",
+        "IFH-0075",
+        "IFH-0076",
+        "IFH-0077",
+        "IFH-0078",
+        "IFH-0079",
+        "IFH-0080",
+        "IFH-0081",
+        "IFH-0082",
+        "IFH-0083",
+        "IFH-0084",
+        "IFH-0085",
+        "IFH-0086",
+        "IFH-0087",
+        "IFH-0088",
+        "IFH-0089",
+        "IFH-0090",
+        "IFH-0091",
+        "IFH-0092",
+        "IFH-0093",
+        "IFH-0094",
+        "IFH-0095",
+        "IFH-0096",
+        "IFH-0097",
+        "IFH-0098",
+        "IFH-0099",
+        "RUN-0000",
+        "RUN-0001",
+        "RUN-0002",
+        "RUN-0003",
+        "RUN-0004",
+        "RUN-0005",
+        "RUN-0006",
+        "RUN-0007",
+        "RUN-0008",
+        "RUN-0009",
+        "RUN-0010",
+        "RUN-0011",
+        "RUN-0012",
+        "RUN-0013",
+        "RUN-0014",
+        "RUN-0015",
+        "RUN-0016",
+        "RUN-0017",
+        "RUN-0018",
+        "RUN-0019",
+        "RUN-0020",
+        "RUN-0021",
+        "RUN-0022",
+        "RUN-0023",
+        "RUN-0024",
+        "RUN-0025",
+        "RUN-0026",
+        "RUN-0027",
+        "RUN-0028",
+        "RUN-0029",
+        "RUN-0030",
+        "RUN-0031",
+        "RUN-0032",
+        "RUN-0033",
+        "RUN-0034",
+        "RUN-0035",
+        "RUN-0036",
+        "RUN-0037",
+        "RUN-0038",
+        "RUN-0039",
+        "RUN-0040",
+        "RUN-0041",
+        "RUN-0042",
+        "RUN-0043",
+        "RUN-0044",
+        "RUN-0045",
+        "RUN-0046",
+        "RUN-0047",
+        "RUN-0048",
+        "RUN-0049",
+        "RUN-0050",
+        "RUN-0051",
+        "RUN-0052",
+        "RUN-0053",
+        "RUN-0054",
+        "RUN-0055",
+        "RUN-0056",
+        "RUN-0057",
+        "RUN-0058",
+        "RUN-0059",
+        "RUN-0060",
+        "RUN-0061",
+        "RUN-0062",
+        "RUN-0063",
+        "RUN-0064",
+        "RUN-0065",
+        "RUN-0066",
+        "RUN-0067",
+        "RUN-0068",
+        "RUN-0069",
+        "RUN-0070",
+        "RUN-0071",
+        "RUN-0072",
+        "RUN-0073",
+        "RUN-0074",
+        "RUN-0075",
+        "RUN-0076",
+        "RUN-0077",
+        "RUN-0078",
+        "RUN-0079",
+        "RUN-0080",
+        "RUN-0081",
+        "RUN-0082",
+        "RUN-0083",
+        "RUN-0084",
+        "RUN-0085",
+        "RUN-0086",
+        "RUN-0087",
+        "RUN-0088",
+        "RUN-0089",
+        "RUN-0090",
+        "RUN-0091",
+        "RUN-0092",
+        "RUN-0093",
+        "RUN-0094",
+        "RUN-0095",
+        "RUN-0096",
+        "RUN-0097",
+        "RUN-0098",
+        "RUN-0099",
+        "SEC-0000: INTERNAL ERROR",
+        "SEC-0001: UNKNOWN CERTIFICATE",
+        "SEC-0002: CERTIFICATE VERIFICATION ERROR",
+        "SEC-0003: OWNERSHIP VERIFICATION ERROR",
+        "SEC-0004: VERSION ERROR",
+        "SEC-0005: SYSTEM ERROR",
+        "SEC-0006: ACCESS ERROR",
+        "SEC-0007: UNKNOWN ERROR",
+        "SEC-0008: FILE OR PATH NOT FOUND",
+        "SEC-0009: INITIALIZATION ERROR",
+        "SEC-0010: SERVICE NOT SUPPORTED",
+        "SEC-0011: SUB FUNCTION NOT SUPPORTED",
+        "SEC-0012: MESSAGE LENGTH OR FORMAT ERROR",
+        "SEC-0013: CONDITIONS ERROR",
+        "SEC-0014: REQUEST SEQUENCE ERROR",
+        "SEC-0015: CERTIFICATE TIME PERIOD ERROR",
+        "SEC-0016: CERTIFICATE SIGNATURE ERROR",
+        "SEC-0017: CERTIFICATE CHAIN OF TRUST ERROR",
+        "SEC-0018: CERTIFICATE TYPE ERROR",
+        "SEC-0019: CERTIFICATE FORMAT ERROR",
+        "SEC-0020: CERTIFICATE CONTENT ERROR",
+        "SEC-0021: CERTIFICATE SCOPE ERROR",
+        "SEC-0022: CERTIFICATE REVOKE ERROR",
+        "SEC-0023: OWNERSHIP VERIFICATION ERROR",
+        "SEC-0024: CHALLENGE CALCULATION ERROR",
+        "SEC-0025: SETTING ACCESS RIGHTS ERROR",
+        "SEC-0026: SESSION KEY ERROR",
+        "SEC-0027: CONFIGURATION DATA ERROR",
+        "SEC-0028: DEAUTHENTICATION ERROR",
+        "SEC-0029",
+        "SEC-0030: UNKNOWN PROTOCOL",
+        "SEC-0031: PROTOCOL NOT SUPPORTED",
+        "SEC-0032: PROTOCOL ERROR",
+        "SEC-0033: CIPHER NOT SUPPORTED",
+        "SEC-0034: CERTIFICATE ERROR",
+        "SEC-0035: CERTIFICATE EXPIRED",
+        "SEC-0036: CERTIFICATE LOOKUP ERROR",
+        "SEC-0037: KEY ERROR",
+        "SEC-0038: KEY NOT FOUND",
+        "SEC-0039: SESSION ERROR",
+        "SEC-0040: PENDING ERROR",
+        "SEC-0041: COMMUNICATION ERROR",
+        "SEC-0042: DIGEST ERROR",
+        "SEC-0043: SIGN ERROR",
+        "SEC-0044: SIGN VERIFICATION ERROR",
+        "SEC-0045: BIG NUM ERROR",
+        "SEC-0046: CONTAINER ERROR",
+        "SEC-0047: BACKEND ERROR",
+        "SEC-0048: TIMEOUT ERROR",
+        "SEC-0049: AUTHENTICATION LOST",
+    ]
+}

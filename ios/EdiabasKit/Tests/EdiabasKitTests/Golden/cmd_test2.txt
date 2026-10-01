@@ -1,0 +1,1926 @@
+JOB INFO
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = INFO
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 1
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  AUTHOR [TypeS] = Ulrich Holeschak
+  COMMENT [TypeS] = 
+  ECU [TypeS] = CMD_TEST2
+  ORIGIN [TypeS] = Ulrich Holeschak
+  REVISION [TypeS] = 1.00
+  SPRACHE [TypeS] = deutsch
+JOB TEST_SUBB_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_SUBB_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 18
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = 2
+  VALUE2 [TypeL] = 4
+  VALUE_RES4 [TypeL] = -2
+ SET 2
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = 2
+  VALUE2 [TypeI] = 4
+  VALUE_RES2 [TypeI] = -2
+ SET 3
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = 2
+  VALUE2 [TypeC] = 4
+  VALUE_RES1 [TypeC] = -2
+ SET 4
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeL] = 4
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = 2
+ SET 5
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 4
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = 2
+ SET 6
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = 4
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = 2
+ SET 7
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = -4
+  VALUE_RES4 [TypeL] = -2147483645
+ SET 8
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = -4
+  VALUE_RES2 [TypeI] = -32765
+ SET 9
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = -4
+  VALUE_RES1 [TypeC] = -125
+ SET 10
+  FLAGS [TypeS] = czsVt
+  JUMPS [TypeS] = jpl jnz jv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -2147483648
+  VALUE2 [TypeL] = 4
+  VALUE_RES4 [TypeL] = 2147483644
+ SET 11
+  FLAGS [TypeS] = czsVt
+  JUMPS [TypeS] = jpl jnz jv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = -32768
+  VALUE2 [TypeI] = 4
+  VALUE_RES2 [TypeI] = 32764
+ SET 12
+  FLAGS [TypeS] = czsVt
+  JUMPS [TypeS] = jpl jnz jv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = -128
+  VALUE2 [TypeC] = 4
+  VALUE_RES1 [TypeC] = 124
+ SET 13
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -4
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = -6
+ SET 14
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = -4
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = -6
+ SET 15
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = -4
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = -6
+ SET 16
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeL] = -4
+  VALUE2 [TypeL] = -4
+  VALUE_RES4 [TypeL] = 0
+ SET 17
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeI] = -4
+  VALUE2 [TypeI] = -4
+  VALUE_RES2 [TypeI] = 0
+ SET 18
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeC] = -4
+  VALUE2 [TypeC] = -4
+  VALUE_RES1 [TypeC] = 0
+JOB TEST_SUBC_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_SUBC_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 18
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = 2
+  VALUE2 [TypeL] = 4
+  VALUE_RES4 [TypeL] = -3
+ SET 2
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = 2
+  VALUE2 [TypeI] = 4
+  VALUE_RES2 [TypeI] = -3
+ SET 3
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = 2
+  VALUE2 [TypeC] = 4
+  VALUE_RES1 [TypeC] = -3
+ SET 4
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeL] = 4
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = 1
+ SET 5
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 4
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = 1
+ SET 6
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = 4
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = 1
+ SET 7
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = -4
+  VALUE_RES4 [TypeL] = -2147483646
+ SET 8
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = -4
+  VALUE_RES2 [TypeI] = -32766
+ SET 9
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = -4
+  VALUE_RES1 [TypeC] = -126
+ SET 10
+  FLAGS [TypeS] = czsVt
+  JUMPS [TypeS] = jpl jnz jv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -2147483648
+  VALUE2 [TypeL] = 0
+  VALUE_RES4 [TypeL] = 2147483647
+ SET 11
+  FLAGS [TypeS] = czsVt
+  JUMPS [TypeS] = jpl jnz jv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = -32768
+  VALUE2 [TypeI] = 0
+  VALUE_RES2 [TypeI] = 32767
+ SET 12
+  FLAGS [TypeS] = czsVt
+  JUMPS [TypeS] = jpl jnz jv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = -128
+  VALUE2 [TypeC] = 0
+  VALUE_RES1 [TypeC] = 127
+ SET 13
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -4
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = -7
+ SET 14
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = -4
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = -7
+ SET 15
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = -4
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = -7
+ SET 16
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -4
+  VALUE2 [TypeL] = -4
+  VALUE_RES4 [TypeL] = -1
+ SET 17
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -4
+  VALUE2 [TypeI] = -4
+  VALUE_RES2 [TypeI] = -1
+ SET 18
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -4
+  VALUE2 [TypeC] = -4
+  VALUE_RES1 [TypeC] = -1
+JOB TEST_ADDS_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_ADDS_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 18
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = 2
+  VALUE2 [TypeL] = -4
+  VALUE_RES4_D [TypeD] = 4294967294
+  VALUE_RES4_L [TypeL] = -2
+ SET 2
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = 2
+  VALUE2 [TypeI] = -4
+  VALUE_RES2 [TypeI] = -2
+ SET 3
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = 2
+  VALUE2 [TypeC] = -4
+  VALUE_RES1 [TypeC] = -2
+ SET 4
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = 4
+  VALUE2 [TypeL] = -2
+  VALUE_RES4 [TypeL] = 2
+ SET 5
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeI] = 4
+  VALUE2 [TypeI] = -2
+  VALUE_RES2 [TypeI] = 2
+ SET 6
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeC] = 4
+  VALUE2 [TypeC] = -2
+  VALUE_RES1 [TypeC] = 2
+ SET 7
+  FLAGS [TypeS] = czSVt
+  JUMPS [TypeS] = jmi jnz jv jnc jae jg jge ja jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = 4
+  VALUE_RES4 [TypeL] = -2147483645
+ SET 8
+  FLAGS [TypeS] = czSVt
+  JUMPS [TypeS] = jmi jnz jv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = 4
+  VALUE_RES2 [TypeI] = -32765
+ SET 9
+  FLAGS [TypeS] = czSVt
+  JUMPS [TypeS] = jmi jnz jv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = 4
+  VALUE_RES1 [TypeC] = -125
+ SET 10
+  FLAGS [TypeS] = CzsVt
+  JUMPS [TypeS] = jpl jnz jv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -2147483648
+  VALUE2 [TypeL] = -4
+  VALUE_RES4 [TypeL] = 2147483644
+ SET 11
+  FLAGS [TypeS] = CzsVt
+  JUMPS [TypeS] = jpl jnz jv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -32768
+  VALUE2 [TypeI] = -4
+  VALUE_RES2 [TypeI] = 32764
+ SET 12
+  FLAGS [TypeS] = CzsVt
+  JUMPS [TypeS] = jpl jnz jv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -128
+  VALUE2 [TypeC] = -4
+  VALUE_RES1 [TypeC] = 124
+ SET 13
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -4
+  VALUE2 [TypeL] = -2
+  VALUE_RES4 [TypeL] = -6
+ SET 14
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -4
+  VALUE2 [TypeI] = -2
+  VALUE_RES2 [TypeI] = -6
+ SET 15
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -4
+  VALUE2 [TypeC] = -2
+  VALUE_RES1 [TypeC] = -6
+ SET 16
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeL] = -4
+  VALUE2 [TypeL] = 4
+  VALUE_RES4 [TypeL] = 0
+ SET 17
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeI] = -4
+  VALUE2 [TypeI] = 4
+  VALUE_RES2 [TypeI] = 0
+ SET 18
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeC] = -4
+  VALUE2 [TypeC] = 4
+  VALUE_RES1 [TypeC] = 0
+JOB TEST_ADDC_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_ADDC_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 18
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = 2
+  VALUE2 [TypeL] = -4
+  VALUE_RES4 [TypeL] = -1
+ SET 2
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = 2
+  VALUE2 [TypeI] = -4
+  VALUE_RES2 [TypeI] = -1
+ SET 3
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = 2
+  VALUE2 [TypeC] = -4
+  VALUE_RES1 [TypeC] = -1
+ SET 4
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = 4
+  VALUE2 [TypeL] = -2
+  VALUE_RES4 [TypeL] = 3
+ SET 5
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeI] = 4
+  VALUE2 [TypeI] = -2
+  VALUE_RES2 [TypeI] = 3
+ SET 6
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeC] = 4
+  VALUE2 [TypeC] = -2
+  VALUE_RES1 [TypeC] = 3
+ SET 7
+  FLAGS [TypeS] = czSVt
+  JUMPS [TypeS] = jmi jnz jv jnc jae jg jge ja jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = 4
+  VALUE_RES4 [TypeL] = -2147483644
+ SET 8
+  FLAGS [TypeS] = czSVt
+  JUMPS [TypeS] = jmi jnz jv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = 4
+  VALUE_RES2 [TypeI] = -32764
+ SET 9
+  FLAGS [TypeS] = czSVt
+  JUMPS [TypeS] = jmi jnz jv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = 4
+  VALUE_RES1 [TypeC] = -124
+ SET 10
+  FLAGS [TypeS] = czSVt
+  JUMPS [TypeS] = jmi jnz jv jnc jae jg jge ja jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = 0
+  VALUE_RES4 [TypeL] = -2147483648
+ SET 11
+  FLAGS [TypeS] = czSVt
+  JUMPS [TypeS] = jmi jnz jv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = 0
+  VALUE_RES2 [TypeI] = -32768
+ SET 12
+  FLAGS [TypeS] = czSVt
+  JUMPS [TypeS] = jmi jnz jv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = 0
+  VALUE_RES1 [TypeC] = -128
+ SET 13
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -4
+  VALUE2 [TypeL] = -2
+  VALUE_RES4 [TypeL] = -5
+ SET 14
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -4
+  VALUE2 [TypeI] = -2
+  VALUE_RES2 [TypeI] = -5
+ SET 15
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -4
+  VALUE2 [TypeC] = -2
+  VALUE_RES1 [TypeC] = -5
+ SET 16
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = -4
+  VALUE2 [TypeL] = 4
+  VALUE_RES4 [TypeL] = 1
+ SET 17
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeI] = -4
+  VALUE2 [TypeI] = 4
+  VALUE_RES2 [TypeI] = 1
+ SET 18
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeC] = -4
+  VALUE2 [TypeC] = 4
+  VALUE_RES1 [TypeC] = 1
+JOB TEST_COMP_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_COMP_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 18
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = 2
+  VALUE2 [TypeL] = 4
+  VALUE_RES4 [TypeL] = 2
+ SET 2
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = 2
+  VALUE2 [TypeI] = 4
+  VALUE_RES2 [TypeI] = 2
+ SET 3
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = 2
+  VALUE2 [TypeC] = 4
+  VALUE_RES1 [TypeC] = 2
+ SET 4
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeL] = 4
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = 4
+ SET 5
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 4
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = 4
+ SET 6
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = 4
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = 4
+ SET 7
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = -4
+  VALUE_RES4 [TypeL] = 2147483647
+ SET 8
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = -4
+  VALUE_RES2 [TypeI] = 32767
+ SET 9
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = -4
+  VALUE_RES1 [TypeC] = 127
+ SET 10
+  FLAGS [TypeS] = czsVt
+  JUMPS [TypeS] = jpl jnz jv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -2147483648
+  VALUE2 [TypeL] = 4
+  VALUE_RES4 [TypeL] = -2147483648
+ SET 11
+  FLAGS [TypeS] = czsVt
+  JUMPS [TypeS] = jpl jnz jv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = -32768
+  VALUE2 [TypeI] = 4
+  VALUE_RES2 [TypeI] = -32768
+ SET 12
+  FLAGS [TypeS] = czsVt
+  JUMPS [TypeS] = jpl jnz jv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = -128
+  VALUE2 [TypeC] = 4
+  VALUE_RES1 [TypeC] = -128
+ SET 13
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -4
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = -4
+ SET 14
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = -4
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = -4
+ SET 15
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = -4
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = -4
+ SET 16
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeL] = -4
+  VALUE2 [TypeL] = -4
+  VALUE_RES4 [TypeL] = -4
+ SET 17
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeI] = -4
+  VALUE2 [TypeI] = -4
+  VALUE_RES2 [TypeI] = -4
+ SET 18
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeC] = -4
+  VALUE2 [TypeC] = -4
+  VALUE_RES1 [TypeC] = -4
+JOB TEST_MULT_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_MULT_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 14
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeL] = 2
+  VALUE2 [TypeL] = 4
+  VALUE_RESA4 [TypeL] = 8
+  VALUE_RESB4 [TypeL] = 0
+ SET 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 2
+  VALUE2 [TypeI] = 4
+  VALUE_RESA2 [TypeI] = 8
+  VALUE_RESB2 [TypeI] = 0
+ SET 3
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = 2
+  VALUE2 [TypeC] = 4
+  VALUE_RESA1 [TypeC] = 8
+  VALUE_RESB1 [TypeC] = 0
+ SET 4
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = 2
+  VALUE2 [TypeL] = -4
+  VALUE_RESA4 [TypeL] = -8
+  VALUE_RESB4 [TypeL] = 0
+ SET 5
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = 2
+  VALUE2 [TypeI] = -4
+  VALUE_RESA2 [TypeI] = -8
+ SET 6
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = 2
+  VALUE2 [TypeC] = -4
+  VALUE_RESA1 [TypeC] = -8
+ SET 7
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -2
+  VALUE2 [TypeL] = 4
+  VALUE_RESA4 [TypeL] = -8
+  VALUE_RESB4 [TypeL] = 0
+ SET 8
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = -2
+  VALUE2 [TypeI] = 4
+  VALUE_RESA2 [TypeI] = -8
+ SET 9
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = -2
+  VALUE2 [TypeC] = 4
+  VALUE_RESA1 [TypeC] = -8
+ SET 10
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = 2
+  VALUE_RESA4 [TypeL] = -2
+  VALUE_RESB4 [TypeL] = 0
+ SET 11
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = 4
+  VALUE_RESA4 [TypeL] = -4
+  VALUE_RESB4 [TypeL] = 0
+ SET 12
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = 2
+  VALUE_RESA2 [TypeI] = -2
+  VALUE_RESB2 [TypeI] = 0
+ SET 13
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = 2
+  VALUE_RESA1 [TypeC] = -2
+  VALUE_RESB1 [TypeC] = 0
+ SET 14
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE_RES_FLGA4 [TypeL] = 8
+  VALUE_RES_FLGB4 [TypeL] = 0
+JOB TEST_DIVS_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_DIVS_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 13
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeL] = 10
+  VALUE2 [TypeL] = 2
+  VALUE_RESA4 [TypeL] = 5
+  VALUE_RESB4 [TypeL] = 0
+ SET 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 10
+  VALUE2 [TypeI] = 2
+  VALUE_RESA2 [TypeI] = 5
+  VALUE_RESB2 [TypeI] = 0
+ SET 3
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = 10
+  VALUE2 [TypeC] = 2
+  VALUE_RESA1 [TypeC] = 5
+  VALUE_RESB1 [TypeC] = 0
+ SET 4
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = 10
+  VALUE2 [TypeL] = -2
+  VALUE_RESA4 [TypeL] = -5
+  VALUE_RESB4 [TypeL] = 0
+ SET 5
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeI] = 10
+  VALUE2 [TypeI] = -2
+  VALUE_RESA2 [TypeI] = 0
+  VALUE_RESB2 [TypeI] = 10
+ SET 6
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeC] = 10
+  VALUE2 [TypeC] = -2
+  VALUE_RESA1 [TypeC] = 0
+  VALUE_RESB1 [TypeC] = 10
+ SET 7
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -10
+  VALUE2 [TypeL] = 2
+  VALUE_RESA4 [TypeL] = -5
+  VALUE_RESB4 [TypeL] = 0
+ SET 8
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = -10
+  VALUE2 [TypeI] = 2
+  VALUE_RESA2 [TypeI] = 32763
+  VALUE_RESB2 [TypeI] = 0
+ SET 9
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = -10
+  VALUE2 [TypeC] = 2
+  VALUE_RESA1 [TypeC] = 123
+  VALUE_RESB2 [TypeC] = 0
+ SET 10
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = 2
+  VALUE_RESA4 [TypeL] = 1073741823
+  VALUE_RESB4 [TypeL] = 1
+ SET 11
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = 2
+  VALUE_RESA2 [TypeI] = 16383
+  VALUE_RESB2 [TypeI] = 1
+ SET 12
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = 2
+  VALUE_RESA1 [TypeC] = 63
+  VALUE_RESB1 [TypeC] = 1
+ SET 13
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE_RES_FLGA4 [TypeL] = -5
+  VALUE_RES_FLGB4 [TypeL] = 0
+JOB TEST_DIVS_ZERO
+EXC Error occurred: EDIABAS_BIP_0007
+JOB TEST_LSL_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_LSL_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 19
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -1073741825
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = -4
+ SET 2
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = -16385
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = -4
+ SET 3
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = -65
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = -4
+ SET 4
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = -4
+ SET 5
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = -4
+ SET 6
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = -4
+ SET 7
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 31
+  VALUE_RES4 [TypeL] = -2147483648
+ SET 8
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 15
+  VALUE_RES2 [TypeI] = -32768
+ SET 9
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 7
+  VALUE_RES1 [TypeC] = -128
+ SET 10
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 32
+  VALUE_RES4 [TypeL] = 0
+ SET 11
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 16
+  VALUE_RES2 [TypeI] = 0
+ SET 12
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 8
+  VALUE_RES1 [TypeC] = 0
+ SET 13
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 33
+  VALUE_RES4 [TypeL] = 0
+ SET 14
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 17
+  VALUE_RES2 [TypeI] = 0
+ SET 15
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 9
+  VALUE_RES1 [TypeC] = 0
+ SET 16
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = -1
+  VALUE_RES4 [TypeL] = -1
+ SET 17
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = -1
+  VALUE_RES4 [TypeL] = -1
+ SET 18
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 0
+  VALUE_RES4 [TypeL] = -1
+ SET 19
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE_RES_FLG4 [TypeL] = -2
+JOB TEST_ASL_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_ASL_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 19
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -1073741825
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = -4
+ SET 2
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = -16385
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = -4
+ SET 3
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = -65
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = -4
+ SET 4
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = -4
+ SET 5
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = -4
+ SET 6
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = -4
+ SET 7
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 31
+  VALUE_RES4 [TypeL] = -2147483648
+ SET 8
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 15
+  VALUE_RES2 [TypeI] = -32768
+ SET 9
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 7
+  VALUE_RES1 [TypeC] = -128
+ SET 10
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 32
+  VALUE_RES4 [TypeL] = 0
+ SET 11
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 16
+  VALUE_RES2 [TypeI] = 0
+ SET 12
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 8
+  VALUE_RES1 [TypeC] = 0
+ SET 13
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 33
+  VALUE_RES4 [TypeL] = 0
+ SET 14
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 17
+  VALUE_RES2 [TypeI] = 0
+ SET 15
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 9
+  VALUE_RES1 [TypeC] = 0
+ SET 16
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = -1
+  VALUE_RES4 [TypeL] = -1
+ SET 17
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = -1
+  VALUE_RES4 [TypeL] = -1
+ SET 18
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 0
+  VALUE_RES4 [TypeL] = -1
+ SET 19
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE_RES_FLG4 [TypeL] = -2
+JOB TEST_LSR_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_LSR_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 19
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeL] = -3
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = 1073741823
+ SET 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = -3
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = 16383
+ SET 3
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = -3
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = 63
+ SET 4
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = 536870911
+ SET 5
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = 8191
+ SET 6
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = 31
+ SET 7
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 31
+  VALUE_RES4 [TypeL] = 1
+ SET 8
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 15
+  VALUE_RES2 [TypeI] = 1
+ SET 9
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 7
+  VALUE_RES1 [TypeC] = 1
+ SET 10
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 32
+  VALUE_RES4 [TypeL] = 0
+ SET 11
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 16
+  VALUE_RES2 [TypeI] = 0
+ SET 12
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 8
+  VALUE_RES1 [TypeC] = 0
+ SET 13
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 33
+  VALUE_RES4 [TypeL] = 0
+ SET 14
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 17
+  VALUE_RES2 [TypeI] = 0
+ SET 15
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 9
+  VALUE_RES1 [TypeC] = 0
+ SET 16
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = -1
+  VALUE_RES4 [TypeL] = -1
+ SET 17
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = -1
+  VALUE_RES4 [TypeL] = -1
+ SET 18
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 0
+  VALUE_RES4 [TypeL] = -1
+ SET 19
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE_RES_FLG4 [TypeL] = 2147483647
+JOB TEST_ASR_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_ASR_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 22
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -3
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = -1
+ SET 2
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = -3
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = -1
+ SET 3
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = -3
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = -1
+ SET 4
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = 2
+  VALUE_RES4 [TypeL] = 536870911
+ SET 5
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = 2
+  VALUE_RES2 [TypeI] = 8191
+ SET 6
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = 2
+  VALUE_RES1 [TypeC] = 31
+ SET 7
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 31
+  VALUE_RES4 [TypeL] = -1
+ SET 8
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 15
+  VALUE_RES2 [TypeI] = -1
+ SET 9
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 7
+  VALUE_RES1 [TypeC] = -1
+ SET 10
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 32
+  VALUE_RES4 [TypeL] = -1
+ SET 11
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 16
+  VALUE_RES2 [TypeI] = -1
+ SET 12
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 8
+  VALUE_RES1 [TypeC] = -1
+ SET 13
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 33
+  VALUE_RES4 [TypeL] = -1
+ SET 14
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeI] = -1
+  VALUE2 [TypeI] = 17
+  VALUE_RES2 [TypeI] = -1
+ SET 15
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeC] = -1
+  VALUE2 [TypeC] = 9
+  VALUE_RES1 [TypeC] = -1
+ SET 16
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeL] = 2147483647
+  VALUE2 [TypeL] = 33
+  VALUE_RES4 [TypeL] = 0
+ SET 17
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeI] = 32767
+  VALUE2 [TypeI] = 17
+  VALUE_RES2 [TypeI] = 0
+ SET 18
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeC] = 127
+  VALUE2 [TypeC] = 9
+  VALUE_RES1 [TypeC] = 0
+ SET 19
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = -1
+  VALUE_RES4 [TypeL] = -1
+ SET 20
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = -1
+  VALUE_RES4 [TypeL] = -1
+ SET 21
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeL] = -1
+  VALUE2 [TypeL] = 0
+  VALUE_RES4 [TypeL] = -1
+ SET 22
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE_RES_FLG4 [TypeL] = -1
+JOB TEST_AND_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_AND_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 3
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = 1431655765
+  VALUE2 [TypeL] = -1515870811
+  VALUE_RES4 [TypeL] = 84215045
+ SET 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 21845
+  VALUE2 [TypeI] = -23131
+  VALUE_RES2 [TypeI] = 1285
+ SET 3
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeC] = 85
+  VALUE2 [TypeC] = -91
+  VALUE_RES1 [TypeC] = 5
+JOB TEST_OR_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_OR_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 3
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = 1431655765
+  VALUE2 [TypeL] = -1515870811
+  VALUE_RES4 [TypeL] = -168430091
+ SET 2
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = 21845
+  VALUE2 [TypeI] = -23131
+  VALUE_RES2 [TypeI] = -2571
+ SET 3
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = 85
+  VALUE2 [TypeC] = -91
+  VALUE_RES1 [TypeC] = -11
+JOB TEST_XOR_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_XOR_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 3
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = 1431655765
+  VALUE2 [TypeL] = -1515870811
+  VALUE_RES4 [TypeL] = -252645136
+ SET 2
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = 21845
+  VALUE2 [TypeI] = -23131
+  VALUE_RES2 [TypeI] = -3856
+ SET 3
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = 85
+  VALUE2 [TypeC] = -91
+  VALUE_RES1 [TypeC] = -16
+JOB TEST_TEST_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_TEST_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 5
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  VALUE1 [TypeL] = 1431655765
+  VALUE2 [TypeL] = -1515870811
+  VALUE_RES4 [TypeL] = 1431655765
+ SET 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeI] = 21845
+  VALUE2 [TypeI] = -23131
+  VALUE_RES2 [TypeI] = 21845
+ SET 3
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  VALUE1 [TypeL] = 1431655765
+  VALUE2 [TypeL] = -1431655766
+  VALUE_RES1 [TypeC] = 85
+  VALUE_RES4 [TypeL] = 1431655765
+ SET 4
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeI] = 21845
+  VALUE2 [TypeI] = -21846
+  VALUE_RES2 [TypeI] = 21845
+ SET 5
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeC] = 85
+  VALUE2 [TypeC] = -86
+  VALUE_RES1 [TypeC] = 85
+JOB TEST_NOT_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_NOT_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 3
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeL] = 1431655765
+  VALUE_RES4 [TypeL] = -1431655766
+ SET 2
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeI] = 21845
+  VALUE_RES2 [TypeI] = -21846
+ SET 3
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+  VALUE1 [TypeC] = 85
+  VALUE_RES1 [TypeC] = -86
+JOB TEST_FSUB_FLAGS
+EXC Error occurred: EDIABAS_BIP_0011
+JOB TEST_FADD_FLAGS
+EXC Error occurred: EDIABAS_BIP_0011
+JOB TEST_FMUL_FLAGS
+EXC Error occurred: EDIABAS_BIP_0011
+JOB TEST_FDIV_FLAGS
+EXC Error occurred: EDIABAS_BIP_0011
+JOB TEST_FCOMP_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_FCOMP_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 4
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeR] = 2.4
+  VALUE2 [TypeR] = 4.5
+  VALUE_RES [TypeR] = 2.4
+ SET 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  VALUE1 [TypeR] = 4.5
+  VALUE2 [TypeR] = 2.4
+  VALUE_RES [TypeR] = 4.5
+ SET 3
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE1 [TypeR] = 4.5
+  VALUE2 [TypeR] = 4.5
+  VALUE_RES [TypeR] = 4.5
+ SET 4
+  FLAGS [TypeS] = CzSvt
+  JUMPS [TypeS] = jmi jnz jnv jc jl jle jbe jnt 
+  VALUE1 [TypeR] = -1.2E+308
+  VALUE2 [TypeR] = 1.3E+308
+  VALUE_ERROR [TypeL] = -1
+  VALUE_RES [TypeR] = -1.2E+308
+JOB TEST_PAR_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_PAR_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 5
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = CZSVt
+  JUMPS [TypeS] = jmi jz jv jc jge jle jbe jnt 
+  PARS [TypeS] = 
+ SET 2
+  FLAGS [TypeS] = cZSvt
+  JUMPS [TypeS] = jmi jz jnv jnc jae jge jle jbe jnt 
+  PARS [TypeS] = 
+ SET 3
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  PARL [TypeL] = 0
+ SET 4
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  PARR [TypeR] = 0
+ SET 5
+  FLAGS [TypeS] = CZsvt
+  JUMPS [TypeS] = jpl jz jnv jc jge jle jbe jnt 
+  PARN [TypeL] = 0
+JOB TEST_CLEAR_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_CLEAR_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 4
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+ SET 2
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+ SET 3
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 4
+  FLAGS [TypeS] = czSvt
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jnt 
+JOB TEST_TABLE_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_TABLE_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 41
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  COLS_INIT [TypeL] = 0
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  ROWS_INIT [TypeL] = 0
+ SET 3
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  VALUE_ERROR [TypeL] = 10
+ SET 4
+  COLS_ERR [TypeL] = 3
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 5
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  ROWS_ERR [TypeL] = 6
+ SET 6
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  TABGET_ERROR [TypeS] = UNDEF
+ SET 7
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 8
+  COLS_OK [TypeL] = 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 9
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  ROWS_OK [TypeL] = 7
+ SET 10
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 11
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  TABGET_INVAL1 [TypeS] = UNDEF
+ SET 12
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 13
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  TABGET_OK [TypeS] = 0x24
+ SET 14
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 15
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  TABGET_TAB_KEEP [TypeS] = 0x24
+ SET 16
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  TABGET [TypeS] = 0x24
+  VALUE_ERROR [TypeL] = 10
+ SET 17
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+ SET 18
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  TABGET9 [TypeS] = 0x64
+ SET 19
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  VALUE_ERROR [TypeL] = 10
+ SET 20
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 21
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  TABGET44 [TypeS] = LINE4
+ SET 22
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+ SET 23
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  TABGET99 [TypeS] = LINE6
+ SET 24
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  VALUE_ERROR [TypeL] = 10
+ SET 25
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 26
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  TABGETL4 [TypeS] = LINE5
+ SET 27
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+ SET 28
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  TABGETL9 [TypeS] = LINE6
+ SET 29
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  VALUE_ERROR [TypeL] = 32
+ SET 30
+  COLS_ERREX1 [TypeL] = 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 31
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  ROWS_ERREX2 [TypeL] = 7
+ SET 32
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  VALUE_ERROR [TypeL] = 10
+ SET 33
+  COLS_ERREX2 [TypeL] = 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 34
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  ROWS_ERREX2 [TypeL] = 7
+ SET 35
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 36
+  COLS_OK [TypeL] = 2
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 37
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  ROWS_OK [TypeL] = 6
+ SET 38
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 39
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  TABGETEX_OK [TypeS] = 0x20
+ SET 40
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 41
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  TABGETEX_KEEP [TypeS] = 0x20
+JOB TEST_CFG_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_CFG_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 7
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  ECUFILE [TypeS] = cmd_test2
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+ SET 2
+  DUMMY_S [TypeS] = -
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+ SET 3
+  DEBUGLEVEL [TypeI] = 0
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+ SET 4
+  DUMMY_I [TypeI] = -21846
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+ SET 5
+  FLAGS [TypeS] = CzSVt
+  IFHTRACE [TypeI] = 0
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+ SET 6
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+ SET 7
+  FLAGS [TypeS] = CzSVt
+  IFHTRACE [TypeI] = 5
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+JOB TEST_ERROR_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_ERROR_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 8
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+ SET 2
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  VALUE_ERROR [TypeL] = 5
+  VALUE_NERROR [TypeL] = 5
+ SET 3
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  VALUE_ERROR [TypeL] = 6
+  VALUE_NERROR [TypeL] = 6
+ SET 4
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  VALUE_ERROR [TypeL] = 31
+  VALUE_NERROR [TypeL] = 31
+ SET 5
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  VALUE_ERROR [TypeL] = 255
+  VALUE_NERROR [TypeL] = 255
+ SET 6
+  FLAGS [TypeS] = czsvT
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jt jnt 
+  VALUE_ERROR [TypeL] = -1
+  VALUE_NERROR [TypeL] = -1
+ SET 7
+  FLAGS [TypeS] = czSvT
+  JUMPS [TypeS] = jmi jnz jnv jnc jae jl jle ja jt 
+  VALUE_ERROR [TypeL] = 0
+  VALUE_NERROR [TypeL] = 0
+ SET 8
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  VALUE_ERROR [TypeL] = -1
+  VALUE_NERROR [TypeL] = -1
+JOB TEST_IFACE_FLAGS
+EXC executeJob
+JOB TEST_TIME_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_TIME_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 4
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
+  TIMESTAT [TypeS] = OVER
+ SET 2
+  DATE [TypeY] = 01-0A-1A-28-04
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+ SET 3
+  FLAGS [TypeS] = CzSVt
+  JUMPS [TypeS] = jmi jnz jv jc jg jge jbe jnt 
+  TIMESTAT [TypeS] = OK
+ SET 4
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  TIMESTAT [TypeS] = OK
+JOB TEST_A2FIX_FLAGS
+ SET 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_A2FIX_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 2
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  FLAGS [TypeS] = czsvt
+  JUMPS [TypeS] = jpl jnz jnv jnc jae jg jge ja jnt 
+  PAR_S [TypeS] = 
+  VALUE [TypeL] = 0
+ SET 2
+  FLAGS [TypeS] = Czsvt
+  JUMPS [TypeS] = jpl jnz jnv jc jg jge jbe jnt 
+  PAR_S [TypeS] = 
+  VALUE [TypeL] = 0
+JOB TEST_ERGSYI_FLAGS
+ SET 0
+   [TypeI] = 0
+  FAMILIE [TypeS] = 
+  GRUPPE [TypeS] = 
+  IGNITIONCURRENT [TypeI] = -1
+  IGNITIONHISTORY [TypeI] = -1
+  JOBNAME [TypeS] = TEST_ERGSYI_FLAGS
+  OBJECT [TypeS] = cmd_test2
+  SAETZE [TypeW] = 1
+  UBATTCURRENT [TypeI] = -1
+  UBATTHISTORY [TypeI] = -1
+  VARIANTE [TypeS] = CMD_TEST2
+ SET 1
+  ERGSYSI_I [TypeI] = 0
+  ERGSYSI_S [TypeS] = 
+  FLAGS [TypeS] = cZsvt
+  JUMPS [TypeS] = jpl jz jnv jnc jae jge jle jbe jnt 
